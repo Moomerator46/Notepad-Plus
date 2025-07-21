@@ -1,0 +1,21 @@
+# C++
+cpp/build/
+*.o
+*.obj
+*.exe
+
+# Rust
+rust/target/
+Cargo.lock
+
+# Python
+__pycache__/
+*.pyc
+
+# General
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.env
+*.log
