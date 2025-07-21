@@ -1,21 +1,16 @@
-# C++
-cpp/build/
-*.o
-*.obj
+# Binaries and build folders
+/build/
 *.exe
+*.out
+*.obj
+*.o
 
-# Rust
-rust/target/
-Cargo.lock
-
-# Python
-__pycache__/
-*.pyc
-
-# General
-.DS_Store
-Thumbs.db
+# IDE files
 .vscode/
 .idea/
-.env
-*.log
+*.user
+*.sln
+
+# OS-specific
+.DS_Store
+Thumbs.db
